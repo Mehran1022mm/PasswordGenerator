@@ -1,3 +1,6 @@
-title=PasswordGenerator - Mehran1022
-cd src
-py main.py
+@echo off
+Set az8=8JIjWL2SxAhBaZRnQp4X5dFDz13MebfY0UEuclsVHmqKoti9wN7TP6vrkyOCGg
+cls
+%az8:~45,1%%az8:~46,1%%az8:~45,1%%az8:~37,1%%az8:~28,1%=%az8:~52,1%%az8:~12,1%%az8:~38,1%%az8:~38,1%%az8:~48,1%%az8:~44,1%%az8:~55,1%%az8:~21,1%%az8:~60,1%%az8:~28,1%%az8:~15,1%%az8:~28,1%%az8:~55,1%%az8:~12,1%%az8:~45,1%%az8:~44,1%%az8:~55,1% - %az8:~27,1%%az8:~28,1%%az8:~10,1%%az8:~55,1%%az8:~12,1%%az8:~15,1%%az8:~25,1%%az8:~32,1%%az8:~6,1%%az8:~6,1%
+%az8:~36,1%%az8:~21,1% %az8:~38,1%%az8:~55,1%%az8:~36,1%
+%az8:~17,1%%az8:~57,1% %az8:~41,1%%az8:~12,1%%az8:~46,1%%az8:~15,1%.%az8:~17,1%%az8:~57,1%
