@@ -39,7 +39,9 @@ print(f"""{colorama.Fore.RED}
  ╚═╝░░░░░╚═╝░░╚═╝╚═════╝░╚═════╝░░░░╚═╝░░░╚═╝░░░╚════╝░╚═╝░░╚═╝╚═════╝░
         """)
 print("")
-print(white + f"Password Generator 1.0 {Fore.GREEN}BETA{Fore.WHITE} Made By Mehran1022")
+print(
+    f"{white}Password Generator 1.0 {Fore.GREEN}BETA{Fore.WHITE} Made By Mehran1022"
+)
 print("")
 input("Press Enter To Countinue...")
 print("")
@@ -55,15 +57,15 @@ if lenght_limit > passcode:
   print('')
   time.sleep(1.5)
   copy = str(input(prefix + white + "Copy The Password Into Clipboard (y/n): "))
-  if copy == 'y' or copy == 'yes':
+  if copy in {'y', 'yes'}:
     clipboard.copy(password)
     time.sleep(1)
     print(prefix + white + "Copied Successfully")
   else:
     print(prefix + white + "Terminatig Tasks.")
-    
+
 else:
-    print(prefix + white + "You Cannot Enter Numbers Higher Than 32.")
+  print(prefix + white + "You Cannot Enter Numbers Higher Than 32.")
 
 # Program Loop
 
